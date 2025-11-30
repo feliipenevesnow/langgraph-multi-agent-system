@@ -5,7 +5,7 @@ Este projeto implementa um sistema de atendimento bancário automatizado e intel
 
 O foco principal foi criar uma experiência fluida ("Agentic"), onde o usuário não percebe que está trocando de departamentos (agentes), mantendo o contexto da conversa do início ao fim.
 
-Baixe o diagrama na pasta "Diagram" do repositório.
+Baixe o diagrama na pasta "Diagram" do repositório para uma melhor visualização.
 <img width="2384" height="851" alt="Diagram" src="https://github.com/user-attachments/assets/3ca4c215-84c2-45b8-a4d4-026618922dfc" />
 
 ## 2. Arquitetura do Sistema
