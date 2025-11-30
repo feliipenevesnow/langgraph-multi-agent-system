@@ -1,0 +1,4 @@
+cpf,data_nascimento,nome,score,limite_atual
+12345678900,1990-01-01,João Silva,444,800.0
+98765432100,1985-05-15,Maria Oliveira,800,5000.0
+11122233344,2000-10-20,Pedro Santos,1000,3000.0
