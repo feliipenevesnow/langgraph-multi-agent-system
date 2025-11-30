@@ -1,4 +1,4 @@
-# Banco Ágil - Agente Bancário Inteligente 🏦
+# Banco Ágil - Agente Bancário Inteligente 
 
 ## 1. Visão Geral do Projeto
 Este projeto implementa um sistema de atendimento bancário automatizado e inteligente, utilizando uma arquitetura de **Agentes de IA** orquestrados. O sistema simula um atendimento completo, capaz de autenticar usuários, consultar limites, processar solicitações de aumento de crédito (com análise de risco em tempo real), realizar entrevistas financeiras para atualização de score e fornecer cotações de moedas.
@@ -35,13 +35,13 @@ A solução utiliza uma arquitetura baseada em grafos (**LangGraph**) para orque
     - Consulta cotações de moedas em tempo real utilizando a **AwesomeAPI**.
 
 ## 3. Funcionalidades Implementadas
-- ✅ **Autenticação Robusta:** Validação de CPF e Data com lógica de 3 tentativas.
-- ✅ **Inteligência de Intenção:** Uso de LLM para entender o que o usuário quer, sem depender de palavras-chave exatas.
-- ✅ **Extração de Dados Estruturados:** O sistema extrai CPFs, datas e valores monetários de frases em linguagem natural.
-- ✅ **Análise de Crédito Automática:** Aprovação ou rejeição imediata com base no Score.
-- ✅ **Entrevista Contextual:** O agente faz perguntas, valida se a resposta faz sentido e atualiza o perfil do cliente.
-- ✅ **Cotação em Tempo Real:** Integração com API externa de câmbio.
-- ✅ **Interface Chat:** UI limpa com indicador de "digitando" e histórico persistente.
+- **Autenticação Robusta:** Validação de CPF e Data com lógica de 3 tentativas.
+- **Inteligência de Intenção:** Uso de LLM para entender o que o usuário quer, sem depender de palavras-chave exatas.
+- **Extração de Dados Estruturados:** O sistema extrai CPFs, datas e valores monetários de frases em linguagem natural.
+- **Análise de Crédito Automática:** Aprovação ou rejeição imediata com base no Score.
+- **Entrevista Contextual:** O agente faz perguntas, valida se a resposta faz sentido e atualiza o perfil do cliente.
+- **Cotação em Tempo Real:** Integração com API externa de câmbio.
+- **Interface Chat:** UI limpa com indicador de "digitando" e histórico persistente.
 
 ## 4. Desafios Enfrentados e Soluções
 ### Desafio 1: Manter o Contexto e Estado
