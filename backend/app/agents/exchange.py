@@ -11,7 +11,6 @@ def exchange_node(state):
     Agente de Câmbio:
     Retorna cotações de moedas.
     """
-
     try:
         messages = state.get("messages", [])
         last_message = messages[-1].content.upper()
