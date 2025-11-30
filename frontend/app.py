@@ -20,14 +20,14 @@ typing_css = """
 }
 .typing-text {
     font-size: 14px;
-    color: 
+    color: #333;
     margin-right: 5px;
     animation: blink 1.4s infinite both;
 }
 .dot {
     height: 6px;
     width: 6px;
-    background-color: 
+    background-color: #bbb;
     border-radius: 50%;
     opacity: 0.6;
     animation: blink 1.4s infinite both;
@@ -91,7 +91,7 @@ with st.sidebar:
     
     st.markdown("---")
     
-    st.markdown("
+    st.markdown("### Como podemos ajudar?")
     st.markdown("Nossa equipe está pronta para ajudar com:")
     st.markdown("- 💳 **Crédito**")
     st.markdown("- 💱 **Câmbio**")
